@@ -16,7 +16,7 @@ const Header = () => {
         </nav>
 
     
-        {/* <HeaderBanner/> */}
+        <HeaderBanner/>
     </header>
   )
 }
