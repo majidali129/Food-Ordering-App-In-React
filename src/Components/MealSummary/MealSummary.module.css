@@ -1,0 +1,44 @@
+.mealSummary{
+    /* border: 2px solid green; */
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(27, 33, 33);
+    color: #fff;
+    padding: 2.2em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 13px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.913);
+}
+
+.mealSummary>h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.945);
+    letter-spacing: 0.03em;
+}
+
+.mealSummary>p{
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.711);
+    letter-spacing: 0.03em
+}
+
+@media screen and (max-width:768px) {
+    .mealSummary{
+        top: 35%;
+        margin-bottom: 2em;
+    }
+    .mealSummary>h1{
+        font-size: 2rem;
+    }
+    .mealSummary>p{
+        font-size: 1.3rem;
+    }
+}

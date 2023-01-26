@@ -1,10 +1,9 @@
 import React from 'react'
 import Header from './Components/Header/Header'
 import AvailableMeals from './Components/Meals/AvailableMeals/AvailableMeals'
-
 const App = () => {
   return (
-    <div>
+    <div >
       <Header/>
       <AvailableMeals/>
     </div>

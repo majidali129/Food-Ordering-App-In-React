@@ -2,6 +2,7 @@ import React from 'react'
 import classes from "./Header.module.css"
 import HeaderBanner from './HeaderBanner'
 import CartButton from "../../Cart/CartButton"
+import MealSummary from '../MealSummary/MealSummary'
 
 const Header = () => {
   return (
@@ -14,9 +15,10 @@ const Header = () => {
                 <CartButton/>
             </div>
         </nav>
-
-    
         <HeaderBanner/>
+
+        <MealSummary/>
+
     </header>
   )
 }
