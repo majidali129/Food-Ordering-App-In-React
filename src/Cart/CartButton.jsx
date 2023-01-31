@@ -7,7 +7,7 @@ const CartButton = (props) => {
   const cartCtx = useContext(CartContext);
   // console.log(cartCtx)
   const numberOfAddedItems = cartCtx.items.reduce((curNumber , item )=>{ return(curNumber + item.amount)},0)
-  console.log(numberOfAddedItems)
+  // console.log(numberOfAddedItems)
   return (
     <>
     <button className={classes.cartButton} onClick={props.onShow}>

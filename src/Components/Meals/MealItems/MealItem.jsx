@@ -1,5 +1,4 @@
-import React from 'react'
-import { useContext } from 'react'
+import React, {useContext} from 'react'
 import AddMealForm from './AddMealForm'
 import classes from "./MealItem.module.css"
 import CartContext from '../../../Store/CartContext'
@@ -11,7 +10,6 @@ const MealItem = (props) => {
   const cartCtx = useContext(CartContext)
 
   const AddToCartHandler = (amount)=>{
-    // console.log(amount)
     cartCtx.addItem({
       id:props.id,
       name:props.name,
