@@ -1,0 +1,18 @@
+label{
+    font-family:sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-right: 0.5em;
+}
+
+input{
+    /* width: 100px; */
+    padding: 0.5em 0em;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+}

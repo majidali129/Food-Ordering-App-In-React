@@ -1,11 +1,12 @@
 import React from 'react'
 import classes from "./Input.module.css"
-const Input = () => {
+const Input = React.forwardRef((props , ref) => {
   return (
-    <div>
-        Input
+    <div className={classes.input}>
+            <label htmlFor={props.Input.id}>{props.label}</label>
+            <input {...props.Input} ref={ref} />
     </div>
   )
-}
+})
 
 export default Input

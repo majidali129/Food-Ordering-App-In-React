@@ -1,4 +1,4 @@
-.cartBtnSection{
+.cartButton{
     background: rgb(95, 27, 27);
     color: #FFF;
     width: 200px;
@@ -8,6 +8,8 @@
     justify-content:space-around;
     padding: 0.7em 1em;
     border-radius: 25px;
+    outline: none;
+    border: none;
 }
 
 .cartIcon{

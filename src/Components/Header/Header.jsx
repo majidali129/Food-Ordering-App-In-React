@@ -4,7 +4,7 @@ import HeaderBanner from './HeaderBanner'
 import CartButton from "../../Cart/CartButton"
 import MealSummary from '../MealSummary/MealSummary'
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header className={classes.header}>
         <nav className={classes.nav}>
@@ -12,7 +12,7 @@ const Header = () => {
                 <h1>FreshFoods</h1>
             </div>
             <div className={classes.cartButton}>
-                <CartButton/>
+                <CartButton onShow={props.onShow}/>
             </div>
         </nav>
         <HeaderBanner/>
